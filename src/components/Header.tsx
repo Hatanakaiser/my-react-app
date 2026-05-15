@@ -56,7 +56,7 @@ export default function Header() {
     <>
       <header className={styles.Header}>
         <Link to={ROUTES.HOME}>
-          <h1>はたなかいざーぶるわりー</h1>
+          <h1>はたなかいざーぶるわりー記録館</h1>
         </Link>
         <Hamburger isOpen={isOpen} setIsOpen={() => setIsOpen(!isOpen)} />
         <SideMenu isOpen={isOpen} setIsOpen={() => setIsOpen(!isOpen)}></SideMenu>
