@@ -1,0 +1,48 @@
+.NewsCardLink {
+    width: 90%;
+    height: 90%;
+    text-decoration: none;
+    color: #000;
+    margin: auto;
+}
+
+.NewsCard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    margin: auto;
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+.NewsCardLink :hover {
+    background-color: #96ac96;
+}
+
+.ImageSpace {
+    margin: 5px auto;
+    width: 95%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    min-height: 0;
+}
+
+.ImageSpace img {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+
+.TagSpace {
+    margin: 5px;
+    margin-top: auto;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

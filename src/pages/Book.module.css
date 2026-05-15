@@ -1,0 +1,52 @@
+.Book {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Cover {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.Cover img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Sample {
+    width: 200px;
+    height: 100px;
+    border: solid 1px;
+    border-color: #000;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.About {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    color: #0D1F1A;
+}
+
+.BookPara{
+    width: 90%;
+    border: solid 2px;
+    border-color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.DetailsMatrix {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.DetailsMatrix li{
+    width: 50%;
+}

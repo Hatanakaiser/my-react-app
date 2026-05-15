@@ -1,0 +1,81 @@
+.tag {
+    display: flex;
+    width: auto;
+    padding: 5px;
+    font-size: 15px;
+    align-items: center;
+    background-color: #eee;
+    border: #1A2620 solid 1px;
+    border-radius: 100px;
+    margin: 2px;
+}
+
+.tagBadge {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.tagSpace {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tagLabel {
+    font-weight: bold;
+}
+
+
+/* タグカラー */
+
+.onSaleReal {
+    /* 三船栞子 */
+    background-color: #38b48b;
+}
+
+.onSaleOnline {
+    /* 中須かすみ */
+    background-color: #ffff7f;
+}
+
+.notSaleNow {
+    /* 優木せつ菜 */
+    background-color: #ea5532;
+}
+
+.event {
+    /* 朝香果林 */
+    background-color: #4169e1;
+}
+
+.release {
+    /* 松浦果南 */
+    background-color: #00a968;
+}
+
+.restock {
+    /* 高海千歌 */
+    background-color: #f08300;
+}
+
+.notice {
+    /* 麻布麻衣 */
+    background-color: #4d93d9;
+}
+
+.collaborative {
+    /* 上原歩夢 */
+    background-color: #ff4da6;
+}
+
+.progress {
+    /* 桜坂しずく */
+    background-color: #4de1ff;
+}
+
+.report {
+    /* 天王寺璃奈 */
+    background-color: #bcc7d7;
+}

@@ -1,0 +1,33 @@
+.sideMenu {
+    position: fixed;
+    background-color: #8A9A8A;
+    width: auto;
+    height: auto;
+    top: 55px;
+    right: 30px;
+    border: solid 1px;
+    border-color: #FFD700;
+    border-radius: 15px;
+    z-index: 20;
+}
+
+.sideMenuList {
+    width: 200px;
+    height: auto;
+    border: solid 2px;
+    border-color: #D0D7D0;
+    background-color: #ccc;
+    padding: 10px;
+    margin: 10px 15px;
+    border-radius: 15px;
+}
+
+.sideMenuList:hover {
+    background-color: white;
+    color: #333333;
+}
+
+.sideMenuBox {
+    text-decoration: none;
+    color: #101820;
+}

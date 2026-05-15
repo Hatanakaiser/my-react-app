@@ -1,0 +1,26 @@
+.news{
+    margin: 0;
+    display: flex;
+}
+
+/* .newsImage{} */
+
+.newsCaption{
+    padding-left: 15px;
+}
+
+.newsHeadline{
+    margin: 0 0 20px;
+}
+
+/* .newsDescription{} */
+
+.newsList {
+    background-color: #888;
+}
+
+.newsObject {
+    background-color: #fff;
+    margin: 10px;
+    border-width: 1px;
+}

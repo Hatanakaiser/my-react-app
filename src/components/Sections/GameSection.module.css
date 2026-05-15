@@ -1,0 +1,16 @@
+.game{
+    margin: 0;
+    display: flex;
+}
+
+/* .gameImage{} */
+
+.gameCaption{
+    padding-left: 15px;
+}
+
+.gameHeadline{
+    margin: 0 0 20px;
+}
+
+/* .gameDescription{} */

@@ -1,0 +1,23 @@
+.book{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .bookImage{} */
+
+.bookCaption{
+    padding-left: 15px;
+}
+
+.bookHeadline{
+    margin: 0 0 20px;
+}
+
+/* .bookDescription{} */
+
+.bookCards {
+    min-width: 300px;
+    width: 25%;
+}

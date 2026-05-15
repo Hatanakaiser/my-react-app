@@ -1,0 +1,27 @@
+.NewsSpace {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.NewsCard {
+    padding: 5px;
+    width: 25%;
+    font-size: 18px;
+}
+
+@media (max-width:1280px) {
+    .NewsCard3 {
+        padding: 5px;
+        width: 33%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .NewsCard2 {
+        padding: 5px;
+        width: 50%;
+        font-size: 12px;
+    }
+}

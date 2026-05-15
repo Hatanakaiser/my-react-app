@@ -1,0 +1,21 @@
+.bookCard {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px;
+    border:solid 1px;
+    border-color: #000;
+}
+
+.bookLink {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+
+.bookImage {
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+.NewsSpace {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.LabelSpace {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.NewsSpace h1 {
+    line-height: 1.4;
+}
+
+.NewsBody {
+    border: solid 1px;
+}
+
+.NewsSpace p {
+    text-align: left;
+    font-family: "M PLUS 1", sans-serif;
+    font-weight: 500;
+    margin: 0 5%;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.NewsUrl {
+    padding: 0;
+}
+
+.NewsImage {
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+}
