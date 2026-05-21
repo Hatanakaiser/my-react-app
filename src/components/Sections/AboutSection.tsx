@@ -40,7 +40,7 @@ export default function AboutSection() {
           <div className={styles.skillsSpace}>
             <Carousel moveLeft={() => setNewCount(-1)} moveRight={() => setNewCount(1)}>
               {skills.map((skill) => (
-                <CarouselItem index={skill.id} count={count} maxCount={maxCount}><SkillCard {...skill}/></CarouselItem>
+                <CarouselItem index={skill.id} count={count} maxCount={maxCount}><SkillCard {...skill} /></CarouselItem>
               ))}
             </Carousel>
           </div>
