@@ -137,4 +137,13 @@ export const galleryItems: GalleryItem[] = [
         w: 2894,
         h: 4093,
     },
+    {
+        id: 14,
+        src: "/Images/gallery/20260527.webp",
+        alt: "春宮ゆくり",
+        series: "イキヅライブ",
+        date: "2026-05-27",
+        w: 2894,
+        h: 4093,
+    },
 ];
