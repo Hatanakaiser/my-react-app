@@ -155,4 +155,22 @@ export const galleryItems: GalleryItem[] = [
         w: 2894,
         h: 4093,
     },
+    {
+        id: 16,
+        src: "/Images/gallery/20260608.webp",
+        alt: "山田真緑",
+        series: "イキヅライブ",
+        date: "2026-06-08",
+        w: 2894,
+        h: 4093,
+    },
+    {
+        id: 17,
+        src: "/Images/gallery/20260609.webp",
+        alt: "東條希",
+        series: "LoveLive",
+        date: "2026-06-09",
+        w: 2894,
+        h: 4093,
+    },
 ];
