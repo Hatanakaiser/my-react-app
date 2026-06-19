@@ -178,7 +178,7 @@ export const galleryItems: GalleryItem[] = [
         src: "/Images/gallery/20260617.webp",
         alt: "優木せつ菜",
         series: "虹ヶ咲",
-        date: "2026-06-09",
+        date: "2026-06-17",
         w: 2894,
         h: 4093,
     },

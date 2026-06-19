@@ -7,7 +7,7 @@ export default function Games() {
   return (
     <>
       <h1>Games</h1>
-      <div>Comming Soon...</div>
+      <div>鋭意制作中</div>
       <Link to={ROUTES.HOME}>HOME</Link>
     </>
   )
