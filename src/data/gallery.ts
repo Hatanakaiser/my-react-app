@@ -1,7 +1,7 @@
 export type GalleryItem = {
     id: number;
     src: string; // 画像パス（public配下推奨）
-    alt: string; // 代替テキスト
+    alt: string[]; // 代替テキスト
     series: string; // カテゴリ（例： "蓮ノ空", "オリジナル", "ポケモン" など）
     date: string; // 任意：日付（YYYY-MM-DD形式推奨）
     w?: number; // 任意：幅（比率のヒント）
@@ -14,7 +14,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 0,
         src: "/Images/gallery/20250910.webp",
-        alt: "涼宮ハルヒ",
+        alt: ["涼宮ハルヒ"],
         series: "涼宮ハルヒの憂鬱",
         date: "2025-09-10",
         w: 675,
@@ -23,7 +23,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 1,
         src: "/Images/gallery/20250927.webp",
-        alt: "山田真緑",
+        alt: ["山田真緑"],
         series: "イキヅライブ",
         date: "2025-09-27",
         w: 2894,
@@ -32,7 +32,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 2,
         src: "/Images/gallery/20251009.webp",
-        alt: "調布のりこ",
+        alt: ["調布のりこ"],
         series: "イキヅライブ",
         date: "2025-10-09",
         w: 2894,
@@ -41,7 +41,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 3,
         src: "/Images/gallery/20251017.webp",
-        alt: "春宮ゆくり",
+        alt: ["春宮ゆくり"],
         series: "イキヅライブ",
         date: "2025-10-17",
         w: 2894,
@@ -50,7 +50,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 4,
         src: "/Images/gallery/20251021.webp",
-        alt: "此花輝夜",
+        alt: ["此花輝夜"],
         series: "イキヅライブ",
         date: "2025-10-21",
         w: 2894,
@@ -59,7 +59,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 5,
         src: "/Images/gallery/20251029.webp",
-        alt: "山田真緑_LittleGreen委員会リリイベレポートイラスト",
+        alt: ["山田真緑_LittleGreen委員会リリイベレポートイラスト"],
         series: "イキヅライブ",
         date: "2025-10-29",
         w: 4093,
@@ -68,7 +68,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 6,
         src: "/Images/gallery/20251107.webp",
-        alt: "優木せつ菜",
+        alt: ["優木せつ菜"],
         series: "虹ヶ咲",
         date: "2025-11-07",
         w: 2894,
@@ -77,7 +77,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 7,
         src: "/Images/gallery/20260308.webp",
-        alt: "山田真緑",
+        alt: ["山田真緑"],
         series: "イキヅライブ",
         date: "2026-03-08",
         w: 2894,
@@ -86,7 +86,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 8,
         src: "/Images/gallery/20260507.webp",
-        alt: "山田真緑",
+        alt: ["山田真緑"],
         series: "イキヅライブ",
         date: "2026-05-07",
         w: 2894,
@@ -95,7 +95,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 9,
         src: "/Images/gallery/20260512.webp",
-        alt: "名称未定",
+        alt: ["名称未定"],
         series: "オリジナル",
         date: "2026-05-12",
         w: 2894,
@@ -104,7 +104,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 10,
         src: "/Images/gallery/20260513.webp",
-        alt: "優木せつ菜",
+        alt: ["優木せつ菜"],
         series: "虹ヶ咲",
         date: "2026-05-13",
         w: 2894,
@@ -113,7 +113,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 11,
         src: "/Images/gallery/20260514.webp",
-        alt: "中須かすみ",
+        alt: ["中須かすみ"],
         series: "虹ヶ咲",
         date: "2026-05-14",
         w: 2894,
@@ -122,7 +122,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 12,
         src: "/Images/gallery/20260516.webp",
-        alt: "山田真緑",
+        alt: ["山田真緑"],
         series: "イキヅライブ",
         date: "2026-05-16",
         w: 2894,
@@ -131,7 +131,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 13,
         src: "/Images/gallery/20260521.webp",
-        alt: "山田真緑",
+        alt: ["山田真緑"],
         series: "イキヅライブ",
         date: "2026-05-21",
         w: 2894,
@@ -140,7 +140,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 14,
         src: "/Images/gallery/20260527.webp",
-        alt: "春宮ゆくり",
+        alt: ["春宮ゆくり"],
         series: "イキヅライブ",
         date: "2026-05-27",
         w: 2894,
@@ -149,7 +149,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 15,
         src: "/Images/gallery/20260529.webp",
-        alt: "山田真緑",
+        alt: ["山田真緑"],
         series: "イキヅライブ",
         date: "2026-05-29",
         w: 2894,
@@ -158,7 +158,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 16,
         src: "/Images/gallery/20260608.webp",
-        alt: "山田真緑",
+        alt: ["山田真緑"],
         series: "イキヅライブ",
         date: "2026-06-08",
         w: 2894,
@@ -167,7 +167,7 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 17,
         src: "/Images/gallery/20260609.webp",
-        alt: "東條希",
+        alt: ["東條希"],
         series: "LoveLive",
         date: "2026-06-09",
         w: 2894,
@@ -176,10 +176,19 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 18,
         src: "/Images/gallery/20260617.webp",
-        alt: "優木せつ菜",
+        alt: ["優木せつ菜"],
         series: "虹ヶ咲",
         date: "2026-06-17",
         w: 2894,
         h: 4093,
+    },
+    {
+        id: 18,
+        src: "/Images/gallery/20260622.webp",
+        alt: ["優木せつ菜","三船栞子"],
+        series: "虹ヶ咲",
+        date: "2026-06-22",
+        w: 2749,
+        h: 3888,
     },
 ];
