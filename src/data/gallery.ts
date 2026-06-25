@@ -185,10 +185,19 @@ export const galleryItems: GalleryItem[] = [
     {
         id: 19,
         src: "/Images/gallery/20260622.webp",
-        alt: ["優木せつ菜","三船栞子"],
+        alt: ["優木せつ菜", "三船栞子"],
         series: "虹ヶ咲",
         date: "2026-06-22",
         w: 2749,
         h: 3888,
+    },
+    {
+        id: 20,
+        src: "/Images/gallery/20260625.webp",
+        alt: ["優木せつ菜", "三船栞子"],
+        series: "虹ヶ咲",
+        date: "2026-06-25",
+        w: 4093,
+        h: 2894,
     },
 ];
