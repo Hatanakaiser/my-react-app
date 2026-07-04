@@ -200,4 +200,13 @@ export const galleryItems: GalleryItem[] = [
         w: 4093,
         h: 2894,
     },
+    {
+        id: 21,
+        src: "/Images/gallery/20260703.webp",
+        alt: ["優木せつ菜"],
+        series: "虹ヶ咲",
+        date: "2026-07-03",
+        w: 2894,
+        h: 2894,
+    },
 ];
