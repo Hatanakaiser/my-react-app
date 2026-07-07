@@ -101,7 +101,7 @@ export const newsItems: NewsItem[] = [
         id: "2026-05",
         date: "2026-07-07",
         title: "YouTubeでの配信活動を開始しました",
-        type: "report",
+        type: "notice",
         body: [["YouTubeでの配信活動を開始しました。", "イラスト作業や雑談をメインに活動していきます。", "以下のURLからアクセス可能をお願い致します。"]],
         link: [["https://www.youtube.com/@hatanakaiserBrewery"]],
         // img: [[]],
