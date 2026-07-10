@@ -209,4 +209,13 @@ export const galleryItems: GalleryItem[] = [
         w: 2894,
         h: 2894,
     },
+    {
+        id: 22,
+        src: "/Images/gallery/20260710.webp",
+        alt: [ "三船栞子"],
+        series: "虹ヶ咲",
+        date: "2026-07-10",
+        w: 4093,
+        h: 2894,
+    },
 ];
