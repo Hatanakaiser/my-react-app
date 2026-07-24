@@ -236,4 +236,22 @@ export const galleryItems: GalleryItem[] = [
         w: 2066,
         h: 2921,
     },
+    {
+        id: 25,
+        src: "/Images/gallery/20260724.webp",
+        alt: ["五桐玲"],
+        series: "イキヅライブ",
+        date: "2026-07-24",
+        w: 2894,
+        h: 4093,
+    },
+    {
+        id: 26,
+        src: "/Images/gallery/20260725.webp",
+        alt: ["上原歩夢"],
+        series: "虹ヶ咲",
+        date: "2026-07-25",
+        w: 2894,
+        h: 4093,
+    },
 ];
