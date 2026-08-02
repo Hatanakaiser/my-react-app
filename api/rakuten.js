@@ -6,7 +6,7 @@ export default async function handler(req, res) {
         const accessKey = "pk_xyHmhRDapKZR8Kk0qFa0AcbbWR0w4rs3eldSZRROOFW";
         const genreParam = mangaOnly === "true" ? "&booksGenreId=001001" : "";
 
-        const targetUrl = `https://openapi.rakuten.co.jp/services/api/BooksBook/Search/20170404?applicationId=${applicationId}&accessKey=${accessKey}&title=${encodeURIComponent(query || "")}&hits=15&formatVersion=2${genreParam}`;
+        const targetUrl = `https://openapi.rakuten.co.jp/services/api/BooksBook/Search/20170404?applicationId=${applicationId}&accessKey=${accessKey}&title=${encodeURIComponent(query || "")}&hits=15&formatVersion=2&outOfStockFlag=1${genreParam}`;
 
         // ★ ご自身のVercelサイトのURLをRefererに指定する
         const response = await fetch(targetUrl, {
@@ -18,7 +18,7 @@ export default async function handler(req, res) {
         });
 
         const data = await response.json();
-        
+
         res.setHeader('Access-Control-Allow-Origin', '*');
         return res.status(200).json(data);
 
